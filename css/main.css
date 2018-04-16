@@ -96,6 +96,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+h1, h2, li{
+    font-family: Arial;
+}
 
 .out{
     text-align: center;
@@ -110,8 +113,8 @@ textarea {
 }
 
 #head{
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 306px;
+    padding-right: 306px;
 }
 
 #champion{
