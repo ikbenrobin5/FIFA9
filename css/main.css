@@ -97,14 +97,47 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.header h1{
+.out{
     text-align: center;
-    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+
 }
 
-.headertext h2{
-    text-align: center;
-    margin-top: 0px;
+.border{
+    border-style: solid;
+}
+
+#head{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#champion{
+    padding-right: 52px;
+    padding-left: 52px;
+    padding-bottom: 20px;
+}
+
+.results {
+    border-style: solid;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#teama{
+    list-style: none;
+    margin: 0px;
+    padding-right: 240px;
+}
+
+#teamb{
+    list-style: none;
+    margin: 0px;
+    padding-left: 240px;
+    padding-right: 30px;
 }
 
 
