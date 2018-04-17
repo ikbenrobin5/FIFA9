@@ -19,7 +19,6 @@ $connection = mysqli_connect('127.0.0.1', $username, $password, 'project_fifa');
 
 $query = "INSERT INTO `tbl_players` (`first_name`, `last_name`) VALUES ( ?, ? )";
 $stmt1 = mysqli_prepare($connection, $query);
-
 mysqli_stmt_bind_param($stmt1, 'ss',$firstname,$lastname);
 
 
